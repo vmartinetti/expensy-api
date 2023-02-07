@@ -18,7 +18,7 @@ const root = {
             console.log('error: ', error)
         }
     },
-    getExpenses: async () => {
+    expenses: async () => {
         try {
             const expenses = await Expense.findAll();
             return expenses;
