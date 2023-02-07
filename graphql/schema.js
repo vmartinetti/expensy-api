@@ -10,7 +10,7 @@ export default buildSchema(`
     }
     type RootQuery {
         hello: String!
-        getExpenses: [Expense!]!
+        expenses: [Expense!]!
     }
     input ExpenseInputData {
         concept: Int!
